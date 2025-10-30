@@ -1,0 +1,7 @@
+{
+  "name": "Node.js & Puppeteer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+
+  // This is the important line to add
+  "onCreateCommand": "sudo apt-get update && sudo apt-get install -y libatk1.0-0 libatk-bridge2.0-0 libcups2 libnss3 libxss1 libxkbcommon0 libgdk-pixbuf2.0-0 libgtk-3-0 libasound2 libpangocairo-1.0-0 libxcomposite1 libxrandr2 libxdamage1 libxshmfence1 libgbm-dev"
+}
